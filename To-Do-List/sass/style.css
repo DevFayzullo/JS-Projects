@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  width: 100%;
+  min-height: 100%;
+}
+@media only screen and (min-width: 768px) {
+  html, body {
+    font-size: 22px;
+  }
+}
+
+body {
+  padding: 20px;
+  background-color: #4a90e2;
+}
+
+section {
+  background-color: #f2f2f2;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
