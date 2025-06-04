@@ -1,0 +1,49 @@
+.listContainer{
+    min-height: 60vh;
+    padding: 0.75rem;
+
+    .listTitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    button {
+        font-size: 1rem;
+        background-color: $clear-button-color;
+        padding: 0 0.1rem;
+        margin-bottom: 0.5rem;
+        @include mp(768px) {
+            padding: 0 0.5rem;
+        }
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    input[type="checkbox"] {
+        text-align: center;
+        width: 2.5rem;
+        min-width: 48px;
+        height: 2.5rem;
+        min-height: 48px;
+        cursor: pointer;
+        margin-right: 1.5rem;
+    }
+
+    input[type="checbox"]:focus + label {
+        text-decoration: underline;
+    }
+
+    label{
+        font-size: 1.1rem;
+    }
+}
