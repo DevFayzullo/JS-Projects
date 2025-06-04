@@ -2,6 +2,11 @@ $default-font-color: #000;
 $background-color: #4a90e2;
 $container-bgcolor: #f2f2f2;
 $container-border-color: #000;
+$textbox-bordercolor: lightgray;
+$button-textcolor: #fff;
+$button-hovercolor: #000;
+$add-button-color: #4caf50;;
+$clear-button-color: #9f6060;
 
 @mixin mp($size){
     @media only screen and (min-width: $size) {

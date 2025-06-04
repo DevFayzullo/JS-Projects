@@ -29,4 +29,24 @@ section {
   margin: auto;
   border: 1px solid #000;
   border-radius: 10px;
+}
+
+.button {
+  width: 15%;
+  min-width: 48px;
+  min-height: 48px;
+  color: #fff;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  filter: brightness(120%);
+  box-shadow: 4px 2px 5px #000;
 }/*# sourceMappingURL=style.css.map */
