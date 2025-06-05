@@ -1,10 +1,10 @@
-export default class ToDoList {
+export default class ToDoItem {
   constructor() {
     this._id = null;
     this._item = null;
   }
 
-  get id() {
+  getId() {
     return this._id;
   }
 

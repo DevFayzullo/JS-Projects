@@ -13,7 +13,7 @@
   <body>
     <main>
       <section class="newItemEntry">
-        <form id="itementryForm">
+        <form id="itemEntryForm">
           <label for="newItem">Enter a new to do item</label>
           <input
             type="text"
@@ -34,7 +34,7 @@
       </section>
       <section class="listContainer">
         <div class="listTitle">
-          <h1>To Do List</h1>
+          <h1 tabindex="0">To Do List</h1>
           <button
             id="clearItems"
             class="button"
@@ -55,6 +55,7 @@
             <label for="2">sleep</label>
           </div>
         </div>
+        <p id="confirmation" class="confirmation" aria-live="assertive"></p>
       </section>
     </main>
   </body>

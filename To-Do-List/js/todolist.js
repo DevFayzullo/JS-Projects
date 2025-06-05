@@ -1,24 +1,24 @@
 export default class ToDoList {
   constructor() {
-    this.tasks = [];
+    this._list = [];
   }
 
-  getTasks() {
-    return this.tasks;
+  getList() {
+    return this._list;
   }
 
-  clearTasks() {
-    this.tasks = [];
+  clearList() {
+    this._list = [];
   }
 
   addItemToList(itemObj) {
-    this.tasks.push(itemObj);
+    this._list.push(itemObj);
   }
 
   removeItemFromList(id) {
-    const list = this.tasks;
+    const list = this._list;
     for (let i = 0; i < list.length; i++) {
-      if (list[i].id === id) {
+      if (list[i]._id === parseInt(id)) {
         list.splice(i, 1);
         break;
       }

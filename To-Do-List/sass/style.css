@@ -116,7 +116,7 @@ section {
   align-items: center;
   padding-top: 1rem;
 }
-.listContainer input[type=checkbox] {
+.listContainer .item input[type=checkbox] {
   text-align: center;
   width: 2.5rem;
   min-width: 48px;
@@ -125,9 +125,13 @@ section {
   cursor: pointer;
   margin-right: 1.5rem;
 }
-.listContainer input[type=checbox]:focus + label {
+.listContainer .item input[type=checbox]:focus + label {
   text-decoration: underline;
 }
-.listContainer label {
+.listContainer .item label {
   font-size: 1.1rem;
+}
+.listContainer .confirmation {
+  position: absolute;
+  left: -10000px;
 }/*# sourceMappingURL=style.css.map */

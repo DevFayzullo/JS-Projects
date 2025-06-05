@@ -13,7 +13,7 @@
         background-color: $clear-button-color;
         padding: 0 0.1rem;
         margin-bottom: 0.5rem;
-        @include mp(768px) {
+        @include mq(768px) {
             padding: 0 0.5rem;
         }
     }
@@ -27,23 +27,28 @@
         justify-content: flex-start;
         align-items: center;
         padding-top: 1rem;
-    }
+    
+        input[type="checkbox"] {
+            text-align: center;
+            width: 2.5rem;
+            min-width: 48px;
+            height: 2.5rem;
+            min-height: 48px;
+            cursor: pointer;
+            margin-right: 1.5rem;
+        }   
 
-    input[type="checkbox"] {
-        text-align: center;
-        width: 2.5rem;
-        min-width: 48px;
-        height: 2.5rem;
-        min-height: 48px;
-        cursor: pointer;
-        margin-right: 1.5rem;
-    }
+        input[type="checbox"]:focus + label {
+            text-decoration: underline;
+        }
 
-    input[type="checbox"]:focus + label {
-        text-decoration: underline;
-    }
-
-    label{
+        label{
         font-size: 1.1rem;
+        }
+    }
+
+    .confirmation {
+        position: absolute;
+        left: -10000px;
     }
 }
