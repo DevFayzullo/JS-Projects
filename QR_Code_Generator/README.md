@@ -4,20 +4,20 @@ A simple web app that generates a QR code from user input. The generated QR code
 
 ## 🛠 Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)  
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 - [QR Code API](https://goqr.me/api/)
 
 ## 📌 Features
 
-- Input any text or link  
-- Generate a QR code instantly  
+- Input any text or link
+- Generate a QR code instantly
 - Download the QR code as an image
 
 ## 📷 Screenshot
 
-![QR Generator Preview](./screenshot.png) <!-- Replace or add your actual screenshot -->
+![QR Generator Preview](screenshot.png) <!-- Replace or add your actual screenshot -->
 
 ## 🚀 How to Run the Project
 
@@ -35,7 +35,7 @@ cd QR_Code_Generator
 
 3. Open `index.html` in your browser:
 
-- Double-click the `index.html` file  
+- Double-click the `index.html` file
 - OR use Live Server in VS Code
 
 ## 📁 Folder Structure
@@ -51,8 +51,8 @@ QR_Code_Generator/
 
 ## ✅ Future Improvements
 
-- Allow QR color customization  
-- Add logo to the center of QR  
+- Allow QR color customization
+- Add logo to the center of QR
 - Save QR code history
 
 ## 📄 License
