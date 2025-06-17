@@ -34,6 +34,8 @@ I aim to:
 | --------------------- | ------------------------------------------------------ |
 | **qr-code-generator** | Generates QR code from user input using an API         |
 | **to-do-list**        | Simple to-do list app with localStorage and checkboxes |
+| **weather-app**       | Get real-time weather updates for any city using a clean, simple interface. |
+
 
 🔄 More projects coming daily...
 
