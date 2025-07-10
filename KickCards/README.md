@@ -66,7 +66,7 @@ kickcards/
 │
 ├── img/screenshot.png
 ├── index.html
-├── styles.css
+├── style.css
 └── script.js
 ```
 
@@ -86,7 +86,7 @@ This project is open-source under the **MIT License**.
 
 ## 🧑‍💻 Author
 
-Built with ❤️ by [Your Name](https://github.com/DevFayzullo).
+Built with ❤️ by [DevFayzullo](https://github.com/DevFayzullo).
 
 ---
 
