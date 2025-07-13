@@ -3,6 +3,7 @@
 Learn modern JavaScript by building and filtering **Germany Football Team cards** dynamically.
 
 This project helps you practice:
+
 - DOM manipulation
 - Object destructuring and immutability
 - Array filtering and rendering
@@ -64,10 +65,10 @@ No dependencies, no build step – everything runs locally.
 ```
 kickcards/
 │
-├── img/screenshot.png
-├── index.html
-├── style.css
-└── script.js
+├── img/screenshot.png  # Screenshot
+├── index.html          # Main HTML file
+├── style.css           # Styling file
+└── script.js           # JS functionality
 ```
 
 ---

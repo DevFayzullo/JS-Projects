@@ -17,7 +17,7 @@ A simple web app that generates a QR code from user input. The generated QR code
 
 ## 📷 Screenshot
 
-![QR Generator Preview](screenshot.png) <!-- Replace or add your actual screenshot -->
+![QR Generator Preview](screenshot.png)
 
 ## 🚀 How to Run the Project
 
@@ -43,10 +43,11 @@ cd QR_Code_Generator
 ```
 QR_Code_Generator/
 │
-├── index.html       # Main HTML page
-├── style.css        # Page styling
-├── script.js        # QR code functionality
-├── README.md        # Project information
+├── css/style.css        # Page styling
+├── js/script.js         # QR code functionality
+├── img/screenshot.png   # Screenshot
+├── index.html           # Main HTML page
+├── notes.md             # Notes
 ```
 
 ## ✅ Future Improvements
@@ -58,3 +59,9 @@ QR_Code_Generator/
 ## 📄 License
 
 This project is open-source and free to use for educational and personal purposes.
+
+## 🧑‍💻 Author
+
+Built with ❤️ by [DevFayzullo](https://github.com/DevFayzullo).
+
+Happy coding! 🚀
