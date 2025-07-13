@@ -6,8 +6,6 @@ A simple and clean **To-Do List** web application built using **HTML, CSS (Sass)
 
 ## 📸 Screenshot
 
-> You can add a screenshot of your app below (replace the file name with your actual image):
-
 ![Screenshot](./screenshot.png)
 
 ---
