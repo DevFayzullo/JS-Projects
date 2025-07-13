@@ -77,4 +77,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## ✍️ Author
 
-Made with ❤️ by \[DevFayzullo]
+Made with ❤️ by [DevFayzullo](https://github.com/DevFayzullo).
