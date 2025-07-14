@@ -46,7 +46,7 @@ I aim to:
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/js-projects.git
+git clone https://github.com/DevFayzullo/js-projects.git
 cd js-projects
 ```
 
