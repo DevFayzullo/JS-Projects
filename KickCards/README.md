@@ -32,7 +32,7 @@ This project helps you practice:
 
 ## 📸 Preview
 
-![KickCards Preview](../KickCards/img/screenshot.png) <!-- Add a screenshot if you wish -->
+![KickCards Preview](../KickCards/img/screenshot.png)
 
 ---
 
