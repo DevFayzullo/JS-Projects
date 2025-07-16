@@ -1,0 +1,36 @@
+function startSpeedTest() {
+  const fileUrl =
+    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg";
+  const fileSizeInBytes = 350000;
+
+  const statusText = document.getElementById("status");
+  const speedText = document.getElementById("speed");
+
+  statusText.textContent = "Checking your download speed...";
+  speedText.textContent = "0 Mbps";
+
+  const startTime = new Date().getTime();
+  const img = new Image();
+
+  img.onload = function () {
+    const endTime = new Date().getTime();
+    const duration = (endTime - startTime) / 1000;
+
+    const bitsLoaded = fileSizeInBytes * 8;
+    const speedBps = bitsLoaded / duration;
+    const speedKbps = speedBps / 1024;
+    const speedMbps = (speedKbps / 1024).toFixed(2);
+
+    speedText.textContent = `${speedMbps} Mbps`;
+    statusText.textContent = "Your download speed is:";
+  };
+
+  img.onerror = function () {
+    speedText.textContent = "0 Mbps";
+    statusText.textContent = "Failed to check speed.";
+  };
+
+  img.src = fileUrl + "?cache=" + Math.random(); 
+}
+
+startSpeedTest();
