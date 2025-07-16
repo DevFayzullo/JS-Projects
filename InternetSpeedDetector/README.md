@@ -56,7 +56,7 @@ fast-speed-test/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fast-speed-test.git
+git clone https://github.com/DevFayzullo/fast-speed-test.git
 ```
 
 2. Open `index.html` in your browser.
@@ -67,7 +67,7 @@ git clone https://github.com/yourusername/fast-speed-test.git
 
 ## 🌐 Live Demo
 
-(https://internet-speed-detector.netlify.app/)
+👉 [Click here to view the live demo](https://internet-speed-detector.netlify.app/)
 
 ---
 
