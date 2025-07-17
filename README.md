@@ -30,12 +30,15 @@ I aim to:
 
 ## 📁 Project List
 
-| Project Name          | Description                                                                                   |
-| --------------------- | --------------------------------------------------------------------------------------------- |
-| **qr-code-generator** | Generates QR code from user input using an API                                                |
-| **to-do-list**        | Simple to-do list app with localStorage and checkboxes                                        |
-| **weather-app**       | Get real-time weather updates for any city using a clean, simple interface.                   |
-| **kick-cards**        | Build and filter Germany's 2014 World Cup squad using modern JavaScript and dynamic UI cards. |
+| Project Name              | Description                                                                                   |
+| ---------------------     | --------------------------------------------------------------------------------------------- |
+| **InternetSpeedDetector** | Measures user's internet download speed using a test file and displays it in real time.       |
+| **kick-cards**            | Build and filter Germany's 2014 World Cup squad using modern JavaScript and dynamic UI cards. |
+| **qr-code-generator**     | Generates QR code from user input using an API                                                |
+| **randomColorGradient**   | Generates random linear-gradient backgrounds with dynamic angle and color display.            |
+| **to-do-list**            | Simple to-do list app with localStorage and checkboxes                                        |
+| **weather-app**           | Get real-time weather updates for any city using a clean, simple interface.                   |
+
 
 🔄 More projects coming daily...
 
