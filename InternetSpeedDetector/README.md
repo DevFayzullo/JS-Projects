@@ -32,7 +32,7 @@ It measures **real-time download speed** by downloading an image and calculating
 ## 📂 Folder Structure
 
 ```
-fast-speed-test/
+InternetSpeedDetector/
 ├── index.html       # App structure
 ├── style.css        # UI styling
 ├── script.js        # Speed test logic
@@ -56,7 +56,7 @@ fast-speed-test/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/DevFayzullo/fast-speed-test.git
+git clone https://github.com/DevFayzullo/InternetSpeedDetector.git
 ```
 
 2. Open `index.html` in your browser.
