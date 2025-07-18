@@ -45,6 +45,12 @@ Weather App/
 
 3. Replace `"YOUR_API_KEY"` in `index.js` with your own API key from [OpenWeatherMap](https://openweathermap.org/).
 
+---
+
+## 🌐 Live Demo
+
+👉 [Click here to view the live demo](https://weatherappbydevfayzullo.netlify.app/)
+
 ## 📝 Developer Notes
 
 - The app uses `fetch()` to get weather data from the API.
