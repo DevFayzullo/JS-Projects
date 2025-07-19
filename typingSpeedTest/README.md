@@ -6,11 +6,11 @@ A responsive and interactive JavaScript project that lets you test your typing s
 
 ## 🚀 Features
 
-* ⏱️ 30-second countdown timer
-* ✅ Character-by-character real-time correctness highlighting
-* 🧠 Accuracy calculator and performance grade
-* 📈 WPM (Words Per Minute) live update
-* 💎 Premium responsive design with soft gradients and shadows
+- ⏱️ 30-second countdown timer
+- ✅ Character-by-character real-time correctness highlighting
+- 🧠 Accuracy calculator and performance grade
+- 📈 WPM (Words Per Minute) live update
+- 💎 Premium responsive design with soft gradients and shadows
 
 ---
 
@@ -37,9 +37,9 @@ typingSpeedTest/
 
 ## 🔧 Technologies
 
-* HTML5
-* CSS3 (custom styling, Google Fonts)
-* Vanilla JavaScript (ES6+)
+- HTML5
+- CSS3 (custom styling, Google Fonts)
+- Vanilla JavaScript (ES6+)
 
 ---
 
@@ -50,10 +50,10 @@ typingSpeedTest/
 3. Each character typed is compared to the target and color-coded.
 4. On timeout, the app calculates:
 
-   * Total typed words
-   * Correct character percentage (accuracy)
-   * Final WPM
-   * Grade (A–F) based on accuracy
+   - Total typed words
+   - Correct character percentage (accuracy)
+   - Final WPM
+   - Grade (A–F) based on accuracy
 
 ---
 
@@ -68,12 +68,6 @@ git clone https://github.com/DevFayzullo/typingSpeedTest.git
 2. Open `index.html` in your browser.
 
 ✅ No setup required – fully client-side and ready to use!
-
----
-
-## 🌐 Live Demo
-
-👉 [Click here to try it live](https://typingspeedtest.netlify.app/) <!-- update if available -->
 
 ---
 
