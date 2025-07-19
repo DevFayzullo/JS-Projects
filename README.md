@@ -37,6 +37,7 @@ I aim to:
 | **qrCodeGenerator**       | Generates QR code from user input using an API                                                |
 | **randomColorGradient**   | Generates random linear-gradient backgrounds with dynamic angle and color display.            |
 | **toDoList**              | Simple to-do list app with localStorage and checkboxes                                        |
+| **typingSoeedTest**       | Test your typing speed, accuracy, and performance in real time                                |
 | **weatherApp**            | Get real-time weather updates for any city using a clean, simple interface.                   |
 
 
