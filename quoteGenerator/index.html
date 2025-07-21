@@ -9,18 +9,43 @@
   <body>
     <div class="container">
       <div class="quote-box">
+        <!-- Language Selection -->
+        <div class="lang-select">
+          <label for="lang">🌐 Language:</label>
+          <select id="lang">
+            <option value="en">🇬🇧 English</option>
+            <option value="uz">🇺🇿 Uzbek</option>
+            <option value="ko">🇰🇷 Korean</option>
+          </select>
+        </div>
+
+        <!-- Quote Display -->
         <h2>📜 Quote of the Moment</h2>
         <p id="quote">Loading quote...</p>
         <span id="author">—</span>
 
+        <!-- Action Buttons -->
         <div class="buttons">
           <button id="new-quote">🔄 New Quote</button>
-          <a id="twitter" target="_blank">🐦 Share</a>
+          <button id="share">📤 Share</button>
+          <button id="save">⭐ Save</button>
+          <button id="view-saved">📜 Saved</button>
           <button id="toggle-dark">🌙</button>
         </div>
       </div>
     </div>
 
+    <!-- Saved Quotes Modal -->
+    <div id="saved-modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h3>📚 Saved Quotes</h3>
+        <ul id="saved-list"></ul>
+        <button id="clear-saved">🗑 Clear All</button>
+        <button id="close-saved">✖️ Close</button>
+      </div>
+    </div>
+
+    <!-- Main Script -->
     <script src="script.js"></script>
   </body>
 </html>
