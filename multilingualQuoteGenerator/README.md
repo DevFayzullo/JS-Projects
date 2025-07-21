@@ -19,7 +19,7 @@ Supports **three languages** (🇬🇧 English, 🇺🇿 Uzbek, 🇰🇷 Korean)
 
 ## 📸 Preview
 
-> 📌(`./screenshot.png`)
+> ![screenshot](./screenshot.png)
 
 ---
 
@@ -36,7 +36,7 @@ Supports **three languages** (🇬🇧 English, 🇺🇿 Uzbek, 🇰🇷 Korean)
 ## 📂 Folder Structure
 
 ```
-QuoteGenerator/
+multilingualQuoteGenerator/
 ├── index.html       # HTML structure
 ├── style.css        # Responsive and themed design
 ├── script.js        # Main app logic (quotes, sharing, save, dark mode)
@@ -59,13 +59,13 @@ QuoteGenerator/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/QuoteGenerator.git
+git clone https://github.com/DevFayzullo/multilingualQuoteGenerator.git
 ```
 
 2. Open the project:
 
 ```bash
-cd QuoteGenerator
+cd multilingualQuoteGenerator
 ```
 
 ## 🌐 Live Demo
