@@ -1,4 +1,3 @@
-
 # 💬 Multilingual Quote Generator
 
 A sleek and simple **motivational quote generator** built with **HTML, CSS, and JavaScript**.  
@@ -20,7 +19,7 @@ Supports **three languages** (🇬🇧 English, 🇺🇿 Uzbek, 🇰🇷 Korean)
 
 ## 📸 Preview
 
-> 📌(`./screenshot.png`) 
+> 📌(`./screenshot.png`)
 
 ---
 
@@ -69,12 +68,17 @@ git clone https://github.com/your-username/QuoteGenerator.git
 cd QuoteGenerator
 ```
 
+## 🌐 Live Demo
+
+👉 [Click here to view the live demo](https://multilingual-quote-generator.netlify.app/)
+
+---
+
 3. Run:
 
 Open `index.html` in your browser (no server required).
 
 ✅ No build tools, no dependencies – pure frontend.
-
 
 ---
 
