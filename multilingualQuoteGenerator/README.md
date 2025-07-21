@@ -19,7 +19,7 @@ Supports **three languages** (🇬🇧 English, 🇺🇿 Uzbek, 🇰🇷 Korean)
 
 ## 📸 Preview
 
-> 📌(`./screenshot.png`)
+> ![screenshot](./screenshot.png)
 
 ---
 
