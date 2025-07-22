@@ -30,16 +30,17 @@ I aim to:
 
 ## 📁 Project List
 
-| Project Name              | Description                                                                                   |
-| ---------------------     | --------------------------------------------------------------------------------------------- |
-| **internetSpeedDetector** | Measures user's internet download speed using a test file and displays it in real time.       |
-| **kickCards**             | Build and filter Germany's 2014 World Cup squad using modern JavaScript and dynamic UI cards. |
-| **qrCodeGenerator**       | Generates QR code from user input using an API                                                |
-| **randomColorGradient**   | Generates random linear-gradient backgrounds with dynamic angle and color display.            |
-| **toDoList**              | Simple to-do list app with localStorage and checkboxes                                        |
-| **typingSoeedTest**       | Test your typing speed, accuracy, and performance in real time                                |
-| **weatherApp**            | Get real-time weather updates for any city using a clean, simple interface.                   |
-
+| Project Name                   | Description                                                                                         |
+| ------------------------------ | --------------------------------------------------------------------------------------------------- |
+| **internetSpeedDetector**      | Measures user's internet download speed using a test file and displays it in real time.             |
+| **kickCards**                  | Build and filter Germany's 2014 World Cup squad using modern JavaScript and dynamic UI cards.       |
+| **multilingualQuoteGenerator** | Displays random motivational quotes in multiple languages with daily mode and share feature.        |
+| **pomodoroTimerPro**           | Focus and break management timer with 25/5/15 cycle, audio alerts, dark mode, and session tracking. |
+| **qrCodeGenerator**            | Generates QR code from user input using an API                                                      |
+| **randomColorGradient**        | Generates random linear-gradient backgrounds with dynamic angle and color display.                  |
+| **toDoList**                   | Simple to-do list app with localStorage and checkboxes                                              |
+| **typingSoeedTest**            | Test your typing speed, accuracy, and performance in real time                                      |
+| **weatherApp**                 | Get real-time weather updates for any city using a clean, simple interface.                         |
 
 🔄 More projects coming daily...
 
