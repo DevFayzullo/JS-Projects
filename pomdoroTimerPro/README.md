@@ -19,7 +19,7 @@ It helps you manage your focus and break sessions using the proven 25/5/15 techn
 
 ## 💽 Demo
 
-![Pomodoro Timer Demo](./screenshot.png) 
+![Pomodoro Timer Demo](./screenshot.png)
 
 ---
 
@@ -38,12 +38,12 @@ Then simply open the `index.html` file in your browser, or use **Live Server** i
 
 ## 🧐 Learning Highlights
 
-* `setInterval`, `clearInterval` for time control
-* DOM manipulation and event handling
-* Audio playback using `<audio>`
-* Data persistence with `localStorage`
-* Responsive layout with media queries
-* Theme toggle (light/dark mode)
+- `setInterval`, `clearInterval` for time control
+- DOM manipulation and event handling
+- Audio playback using `<audio>`
+- Data persistence with `localStorage`
+- Responsive layout with media queries
+- Theme toggle (light/dark mode)
 
 ---
 
@@ -54,7 +54,8 @@ pomodoroTimerPro/
 ├── index.html
 ├── style.css        # (integrated inside index.html, optional to split)
 ├── script.js        # (integrated inside index.html, optional to split)
-└── screenshot.png   # Demo image (add one)
+├── screenshot.png   # Demo image (add one)
+└── README.md        # Project description
 ```
 
 ---
