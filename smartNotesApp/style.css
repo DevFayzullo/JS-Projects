@@ -1,0 +1,153 @@
+:root {
+  --bg-light: #ffffff;
+  --bg-dark: #1f1f1f;
+  --text-light: #333;
+  --text-dark: #f0f0f0;
+  --note-bg-light: #f9f9f9;
+  --note-bg-dark: #2c2c2c;
+  --primary: #007bff;
+  --danger: #dc3545;
+  --warning: #ffc107;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg-light);
+  color: var(--text-light);
+  transition: all 0.3s;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+body.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  background: var(--bg-light);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+body.dark .container {
+  background: #292929;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.note-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+textarea,
+#searchInput {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+textarea:focus,
+#searchInput:focus {
+  border-color: var(--primary);
+}
+
+button {
+  padding: 12px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.note {
+  background: var(--note-bg-light);
+  padding: 15px 20px;
+  border-left: 5px solid var(--primary);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+body.dark .note {
+  background: var(--note-bg-dark);
+}
+
+.note .timestamp {
+  font-size: 12px;
+  color: gray;
+  margin-top: 8px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.action-buttons button {
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.edit {
+  background: var(--warning);
+  color: #000;
+}
+
+.delete {
+  background: var(--danger);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .note-controls {
+    gap: 10px;
+  }
+
+  textarea,
+  button,
+  #searchInput {
+    font-size: 15px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
