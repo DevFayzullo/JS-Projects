@@ -38,6 +38,7 @@ I aim to:
 | **pomodoroTimerPro**           | Focus and break management timer with 25/5/15 cycle, audio alerts, dark mode, and session tracking. |
 | **qrCodeGenerator**            | Generates QR code from user input using an API                                                      |
 | **randomColorGradient**        | Generates random linear-gradient backgrounds with dynamic angle and color display.                  |
+| **smartNotesApp**              | Capture, edit, and manage personal notes instantly with a sleek, and offline-ready interface.       |
 | **toDoList**                   | Simple to-do list app with localStorage and checkboxes                                              |
 | **typingSoeedTest**            | Test your typing speed, accuracy, and performance in real time                                      |
 | **weatherApp**                 | Get real-time weather updates for any city using a clean, simple interface.                         |
@@ -77,9 +78,16 @@ This project is open-source under the **MIT License**.
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
-Built with ❤️ by [DevFayzullo](https://github.com/DevFayzullo).
+Crafted with precision and passion by [DevFayzullo](https://github.com/DevFayzullo)
+
+> “Great software is born from small, consistent improvements.” – Unknown
+
+---
+
+Keep it simple. Keep it fast.
+Write it down before it fades away. 🧠✍️💾
 
 ---
 
