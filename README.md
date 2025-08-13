@@ -1,6 +1,6 @@
 # 🛠️ JavaScript Projects Collection
 
-[🇰🇷 한국어 README](./README.ko.md)
+[🇰🇷 한국어 README](./README.kr.md)
 
 Welcome to my JavaScript Projects Repository!
 This repository is a growing collection of mini JavaScript projects that I build daily to improve my skills, experiment with new ideas, and learn frontend development.
