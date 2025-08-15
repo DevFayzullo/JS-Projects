@@ -42,7 +42,7 @@ I aim to:
 | **randomColorGradient**        | Generates random linear-gradient backgrounds with dynamic angle and color display.                  |
 | **smartNotesApp**              | Capture, edit, and manage personal notes instantly with a sleek, and offline-ready interface.       |
 | **toDoList**                   | Simple to-do list app with localStorage and checkboxes                                              |
-| **typingSoeedTest**            | Test your typing speed, accuracy, and performance in real time                                      |
+| **typingSpeedTest**            | Test your typing speed, accuracy, and performance in real time                                      |
 | **weatherApp**                 | Get real-time weather updates for any city using a clean, simple interface.                         |
 
 🔄 More projects coming daily...
